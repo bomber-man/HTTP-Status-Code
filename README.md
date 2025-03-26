@@ -1,40 +1,70 @@
-# HTTP-Status-Code
+<h1 align="center">🌐 HTTP Status Codes - Explained 🚀</h1>
 
-## Documentation
-Having knowledge of HTTP status codes in software testing can be highly beneficial for testers and developers. These codes are essential for understanding the communication between web servers and clients. Here are some advantages of having knowledge in HTTP code errors in software testing:
+<p align="center">
+  <img src="https://img.shields.io/badge/HTTP%20Status%20Codes-Guide-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/bomber-man/HTTP-Status-Code?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/bomber-man/HTTP-Status-Code?style=for-the-badge" />
+</p>
 
-## Advantanges of Haiving HTTP Code error Knowledge.
+---
 
-1. Debugging: Understanding HTTP status codes helps testers identify and troubleshoot issues more effectively, as each code provides specific information about the request's outcome.
+## 📌 **About This Repository**
+This repository provides a **comprehensive guide to HTTP Status Codes**, helping developers and testers understand and use them effectively. Each status code includes a **detailed explanation, common use cases, and troubleshooting tips**.  
 
-2. Error Identification: Testers can quickly pinpoint the root cause of issues by analyzing the HTTP status code received during testing, which aids in efficient debugging.
+🔍 Whether you're a **developer, tester, or just learning**, this guide will help you debug APIs and improve web application performance.  
 
-3. Improved Communication: Knowledge of HTTP codes allows testers to communicate more effectively with developers and other team members by providing precise information about the errors encountered.
+---
 
-4. Quality Assurance: It ensures the quality and reliability of web applications by verifying that the appropriate status codes are returned during different scenarios and error conditions.
+## 🔥 **Why HTTP Status Codes Matter?**
+HTTP status codes are **response messages** sent by a web server to indicate the **status of a request**. They are crucial for:  
+✅ **Debugging APIs** 🛠️  
+✅ **Optimizing website performance** 🚀  
+✅ **Identifying errors quickly** ⚠️  
+✅ **Enhancing user experience** 🎯  
 
-5. Validation of Business Logic: Testers can ensure that the application's business logic functions correctly by checking whether the server returns the correct HTTP status codes for various user actions.
+---
 
-6. Security Testing: Certain HTTP status codes, such as 401 (Unauthorized) and 403 (Forbidden), are crucial for security testing, helping identify unauthorized access and potential vulnerabilities.
+## 📖 **HTTP Status Code Categories**
+HTTP Status Codes are classified into **five main categories**:
 
-7. Performance Testing: Understanding status codes like 503 (Service Unavailable) is essential for performance testing to ensure the application can handle high traffic loads and server failures gracefully.
+| Category | Status Code Range | Description |
+|----------|-----------------|-------------|
+| **1xx** | `100-199` | Informational responses (Request received, continuing process) |
+| **2xx** | `200-299` | Success (The request was successfully received, understood, and accepted) |
+| **3xx** | `300-399` | Redirection (Further action needs to be taken to complete the request) |
+| **4xx** | `400-499` | Client Errors (The request contains bad syntax or cannot be fulfilled) |
+| **5xx** | `500-599` | Server Errors (The server failed to fulfill an apparently valid request) |
 
-8. API Testing: When testing APIs, knowledge of HTTP status codes is indispensable for verifying that the API responds as expected and returns appropriate codes for different scenarios.
+---
 
-9. User Experience Enhancement: By monitoring HTTP status codes, testers can ensure a smoother user experience by addressing issues promptly and providing meaningful error messages.
+## ⚡ **Common HTTP Status Codes**
+Here are some of the most frequently used status codes:
 
-10. Test Automation: HTTP status codes can be used as part of automated tests to validate the correctness of API or web application responses, enhancing the efficiency of test automation.
+### ✅ **Success Codes (2xx)**
+- **200 OK** – Request succeeded.  
+- **201 Created** – Resource successfully created.  
+- **204 No Content** – Request processed successfully, but no content to return.
 
-11. Regression Testing: Testers can use HTTP status codes as checkpoints in regression testing to ensure that previous issues have been resolved and that new code changes do not introduce new errors.
+### 🔄 **Redirection Codes (3xx)**
+- **301 Moved Permanently** – Resource has been permanently moved.  
+- **302 Found (Temporary Redirect)** – Resource moved temporarily.  
+- **304 Not Modified** – Cached version is still valid.
 
-12. Load Testing: In load testing scenarios, knowledge of HTTP status codes helps testers assess how well the application handles a large number of requests and errors under high load conditions.
+### ⚠️ **Client Error Codes (4xx)**
+- **400 Bad Request** – Invalid syntax in the request.  
+- **401 Unauthorized** – Authentication is required.  
+- **403 Forbidden** – Server refuses to authorize request.  
+- **404 Not Found** – The requested resource doesn’t exist.
 
-13. Documentation: Familiarity with HTTP codes aids in creating comprehensive test documentation and reports, making it easier to share test results and findings with stakeholders.
+### 💥 **Server Error Codes (5xx)**
+- **500 Internal Server Error** – Generic error when something goes wrong.  
+- **502 Bad Gateway** – Server received an invalid response from an upstream server.  
+- **503 Service Unavailable** – Server is overloaded or under maintenance.  
 
-14. Compliance and Standards: For applications that need to adhere to specific standards or compliance requirements, testers can verify that the correct status codes are returned to meet those standards.
+---
 
-15. Continuous Improvement: By analyzing HTTP status codes and their associated errors, teams can continuously improve the software by addressing recurring issues and optimizing performance.
-
-In summary, having knowledge of HTTP status codes in software testing is crucial for effective error identification, debugging, and overall quality assurance, contributing to a more reliable and user-friendly web application.
-
-
+## 📜 **How to Use This Repository?**
+1. **Browse the files** to find explanations of specific HTTP codes.  
+2. **Clone the repository** for offline reference:  
+   ```sh
+   git clone https://github.com/bomber-man/HTTP-Status-Code.git
